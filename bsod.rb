@@ -12,6 +12,7 @@ class Bsod < Formula
   # depends_on "cmake" => :build
 
   def install
+    system "make"
     system "make", "install" # if this fails, try separate make/make install steps
   end
 
