@@ -10,7 +10,8 @@ class Batchbrew < Formula
   sha256 "02f7e6f094af52f4f693ed80962a99ec4515882bb7399202b943574b0d8c9102"
   
   def install
-    system "./install"
+    bin.install Dir["bin/batchbrew"]
+    man5.install Dir["share/man/man5/batchbrew.5"]
   end
 
   test do
