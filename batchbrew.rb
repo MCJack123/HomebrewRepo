@@ -7,7 +7,7 @@ class Batchbrew < Formula
   homepage "http://cppconsole.bruienne.com/"
   url "http://cppconsole.bruienne.com/repos/homebrew/formulae/batchbrew.1.0.tar.gz"
   version "1.0"
-  sha256 "02f7e6f094af52f4f693ed80962a99ec4515882bb7399202b943574b0d8c9102"
+  sha256 "303a055ef94e1e263d0706b2226fd2a6dd583f6e4dd7f7b14bec5864f743eada"
   
   def install
     bin.install Dir["bin/batchbrew"]
